@@ -17,7 +17,7 @@ func reverseString(s string) string {
 }
 
 func main() {
-	dummyString := "snow dog sun"
+	inString := "snow dog sun"
 
-	fmt.Println(reverseString(dummyString))
+	fmt.Println(reverseString(inString))
 }

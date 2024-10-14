@@ -15,5 +15,5 @@ func createHugeString(size int) string {
 }
 
 func main() {
-	fmt.Println("justString:", someFunc())
+	fmt.Println(someFunc())
 }

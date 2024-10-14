@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func findIntersection1(nums1 []int, nums2 []int) {
+func findIntersection(nums1 []int, nums2 []int) {
 	var numsMap = make(map[int]int)
 	var intersection []int
 
@@ -35,5 +35,5 @@ func main() {
 
 	nums2 := []int{9, 1, 2, 3, 8, 9}
 
-	findIntersection1(nums1, nums2)
+	findIntersection(nums1, nums2)
 }

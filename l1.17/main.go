@@ -32,5 +32,5 @@ func main() {
 		return nums[i] < nums[j]
 	})
 
-	fmt.Println(binarySearch(nums, 5))
+	fmt.Println(binarySearch(nums, 11))
 }

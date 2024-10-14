@@ -7,10 +7,10 @@ import (
 
 func main() {
 	a := big.NewInt(3)
-	a.Exp(a, big.NewInt(20), nil) // a = 2^20
+	a.Exp(a, big.NewInt(20), nil)
 
 	b := big.NewInt(4)
-	b.Exp(b, big.NewInt(20), nil) // b = 3^20
+	b.Exp(b, big.NewInt(20), nil)
 
 	mul := new(big.Int).Mul(a, b)
 	fmt.Printf("Умножение: %s\n", mul.String())

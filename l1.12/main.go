@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func findIntersection(dummyStrings []string) {
+func createIntersection(inStrings []string) {
 
 	var stringsMap = make(map[string]int)
-	for _, elem := range dummyStrings {
+	for _, elem := range inStrings {
 		stringsMap[elem] += 1
 	}
 
@@ -13,6 +13,6 @@ func findIntersection(dummyStrings []string) {
 }
 
 func main() {
-	dummyStrings := []string{"cat", "cat", "dog", "cat", "tree"}
-	findIntersection(dummyStrings)
+	inStrings := []string{"cat", "cat", "dog", "cat", "tree"}
+	createIntersection(inStrings)
 }

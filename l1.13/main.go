@@ -10,8 +10,8 @@ func swap(a, b int) (int, int) {
 }
 
 func main() {
-	num1 := 30
-	num2 := 20
+	num1 := 15
+	num2 := 50
 	fmt.Println("До swap:")
 	fmt.Println("num1:", num1)
 	fmt.Println("num2:", num2)
